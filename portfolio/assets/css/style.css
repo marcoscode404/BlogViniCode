@@ -344,7 +344,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 605px; }
 
 .sidebar-info {
   position: relative;
@@ -813,6 +813,11 @@ main {
  */
 
 .clients { margin-bottom: 15px; }
+
+.snick {
+  background: var(--bg-gradient-jet);
+  width: 100%;
+}
 
 .clients-list {
   display: flex;
