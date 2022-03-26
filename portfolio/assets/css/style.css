@@ -129,6 +129,11 @@
   box-sizing: border-box;
 }
 
+/* rezeta os valores em Rem */
+html {
+  font-size: 62.5%;
+}
+
 a { text-decoration: none; }
 
 li { list-style: none; }
@@ -269,7 +274,7 @@ article.active {
 
 .has-scrollbar::-webkit-scrollbar-track {
   background: var(--onyx);
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
@@ -282,13 +287,24 @@ article.active {
 
 .has-scrollbar .tec {
   width: 100%;
+  height: 100%;
   height: 3rem;
+  
+  
 }
 
+
 .has-scrollbar .tec ion-icon{
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
   color: var(--purple-light);
+  background: var(--bg-gradient-onyx);
+  transition: 1.3s;
+}
+
+
+.has-scrollbar .tec ion-icon:hover{
+  filter: brightness(1.7);
 }
 
 
@@ -351,7 +367,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  gap: 1.6rem;
 }
 
 .avatar-box {
@@ -359,12 +375,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10rem;
-  height: 9.5rem;
-  background: var(--bg-gradient-onyx);
-  border: 1.7px solid var(--purple);
+  width: min(15rem, 80%);
+  height: min(13,5rem, 80%);
+  /* background: var(--bg-gradient-onyx); */
+  /* border: 0.17rem solid var(--purple); */
   
-  border-radius: 50%;
  
 }
 
@@ -375,6 +390,9 @@ main {
   width: 100%;
   border-radius: 50%; 
   background-repeat: no-repeat;
+  padding: 1rem;
+  border: 1px solid var(--purple);
+ 
 
   
 }
@@ -490,8 +508,8 @@ main {
 
 /* li */
 .social-item {
-  width: 3rem;
-  height: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -506,7 +524,7 @@ main {
 
 .social-item .social-link {
   color: var(--purple);
-  font-size: 2rem;
+  font-size: 2.7rem;
 }
 
 
@@ -583,7 +601,9 @@ main {
 
 .service { margin-bottom: 35px; }
 
-.service-title { margin-bottom: 20px; }
+.service-title { 
+  margin: 20px 0px;
+}
 
 .service-list {
   display: grid;
@@ -671,12 +691,15 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
+  border: 2.5px solid var(--bittersweet-shimmer);
+  
 }
 
 .testimonials-avatar-box img {
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 8rem;
   border-radius: 14px;
+  
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -1049,11 +1072,11 @@ main {
   flex-wrap: wrap;
   gap: 1.5rem;
   height: auto;
-  margin-top: 1.5rem;  
+  margin-top: 5.5rem;  
 }
 
 .gitStats  img {
-  width: min(25rem, 100%);
+  width: min(40rem, 100%);
 }
   
 
@@ -1295,7 +1318,7 @@ main {
   transition: var(--transition-1);
 }
 
-.blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
+.blog-post-item > a:hover .blog-item-title { color: var(--bittersweet-shimmer); }
 
 .blog-text {
   color: var(--light-gray);
@@ -1303,6 +1326,7 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+
 
 
 
