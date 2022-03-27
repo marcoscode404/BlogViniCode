@@ -15,6 +15,13 @@
 
  @media (min-width: 450px) {
 
+  /* snick */
+  .snick figure {
+    height: 16rem;
+  }
+
+
+
     /**
      * client
      */
@@ -330,6 +337,8 @@
     }
   
     .form-btn ion-icon { font-size: 18px; }
+
+
   
   }
   

@@ -1107,16 +1107,21 @@ main {
   margin: 1rem 0px;
   background: #683379e3;
   border: 1px solid var(--purple-light-dark);
+  
  
 }
 
 
 
-.snick figure { 
+.snick figure {
+  height: auto; 
   width: 100%;
   background-color: var(--jet);
   border-radius: .8rem;
- 
+  background-size: contain;
+  background-size: cover;
+  
+
   
 }
 
@@ -1124,12 +1129,11 @@ main {
 .snick figure iframe {
 
   width: 100%;
-  height: min(70rem, 90%);
+  height: min(70rem, 100%);
+ 
   overflow: hidden;
   filter:  contrast(130%) hue-rotate(17deg) saturate(120%);
-  /* overflow-x: hidden; */
-  padding: 1rem;
-  
+ 
   
 }
 
