@@ -70,6 +70,7 @@
   --bittersweet-shimmer: hsl(0, 43%, 51%);
   --purple: #8257E5;
   --purple-light: #7757c2;
+  --purple-light-dark: #644d9b;
   --green: rgb(27, 207, 27);
   --green-light: rgb(79, 226, 79);
 
@@ -586,7 +587,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
-  background-color: var(--purple-light);
+  background-color: var(--purple-light-dark);
   padding: 1rem;
   border-radius: 0.3rem;
 }
