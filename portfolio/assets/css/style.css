@@ -377,9 +377,11 @@ main {
   align-items: center;
   justify-content: center;
   width: min(15rem, 80%);
-  height: min(13,5rem, 70%);
-  /* background: var(--bg-gradient-onyx); */
-  /* border: 0.17rem solid var(--purple); */
+  height: min(1,5rem, 70%);
+  background-size: contain;
+ 
+ 
+ 
   
  
 }
@@ -393,8 +395,8 @@ main {
   background-repeat: no-repeat;
   padding: 1rem;
   border: 1px solid var(--purple);
+
   background-size: contain;
-  background-size:cover;
  
 
   
@@ -572,7 +574,7 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
 
-.navbar-link.active { color: var(--green); }
+.navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
 
@@ -595,7 +597,7 @@ main {
   background-image: url(../images/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  filter: brightness(1.3);
+  
 }
 
 .about-text p { margin-bottom: 15px; }
@@ -1406,7 +1408,7 @@ main {
   width: 100%;
   border-radius: 16px;
   margin-bottom: 30px;
-  border: 2px solid var(--purple);
+  border: 2px solid var(--purple-light-dark);
   overflow: hidden;
 }
 
