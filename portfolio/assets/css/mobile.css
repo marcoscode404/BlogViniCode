@@ -545,7 +545,7 @@
   
     /* clients */
   
-    .clients-item { min-width: calc(25% - 38px); }
+    .clients-item { min-width: calc(50% - 38px); }
   
   
   
