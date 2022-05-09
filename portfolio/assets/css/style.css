@@ -264,13 +264,13 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--purple);
+  background: #0fbfd9;
   border-radius: 3px;
 }
 
 .has-scrollbar::-webkit-scrollbar {
-  width: 5px; /* for vertical scrollbar */
-  height: 5px; /* for horizontal scrollbar */
+  width: 7px; /* for vertical scrollbar */
+  height: 7px; /* for horizontal scrollbar */
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -279,7 +279,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--purple-light);
+  background: #0fbfd9;
   border-radius: 5px;
 }
 
@@ -298,7 +298,7 @@ article.active {
 .has-scrollbar .tec ion-icon{
   width: 5rem;
   height: 5rem;
-  color: var(--purple-light);
+  color: #0fbfd9;
   background: var(--bg-gradient-onyx);
   transition: 1.3s;
 }
