@@ -272,13 +272,13 @@
     /* clients */
   
     .clients-list {
-      gap: 50px;
+      gap: 30px;
       margin: 0 -30px;
       padding: 45px;
       scroll-padding-inline: 45px;
     }
   
-    .clients-item { min-width: calc(33.33% - 35px); }
+    .clients-item { min-width: calc(53.33% - 35px); }
   
   
   
