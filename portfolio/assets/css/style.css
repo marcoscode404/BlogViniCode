@@ -68,9 +68,8 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
-  --purple: #8257E5;
-  --purple-light: #7757c2;
-  --purple-light-dark: #644d9b;
+  --cyano-100: #0bd2f1;
+  
   --green: rgb(27, 207, 27);
   --green-light: rgb(79, 226, 79);
 
@@ -194,7 +193,7 @@ article {
 
 .icon-box {
   position: relative;
-  background: var(--purple);
+  background: var(--cyano-100);
   width: 30px;
   height: 30px;
   border-radius: 8px;
@@ -202,7 +201,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--purple);
+  color: var(--cyano-100);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -271,6 +270,7 @@ article.active {
 .has-scrollbar::-webkit-scrollbar {
   width: 7px; /* for vertical scrollbar */
   height: 7px; /* for horizontal scrollbar */
+  margin-top: 1rem;
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -279,6 +279,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
+  
   background: #34afc2;
   border-radius: 5px;
 }
@@ -301,6 +302,7 @@ article.active {
   color: #34afc2;
   background: var(--bg-gradient-onyx);
   transition: 1.3s;
+  
 }
 
 
@@ -418,8 +420,8 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--orange-yellow-crayola);
-  background: var(--border-gradient-onyx);
+  color: var(--cyano-100);
+  background: var(--white-1);
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
@@ -520,7 +522,7 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--purple);
+  color: var(--cyano-100);
   font-size: 2.7rem;
 }
 
@@ -640,7 +642,7 @@ main {
 
 .service-icon-box ion-icon {
   margin: auto;
-  color: var(--purple-light);
+  color: var(--cyano-100);
   width: 2.5rem;
   height: 2.5rem;  
 }
@@ -847,6 +849,7 @@ main {
 
 .clients-list {
   display: flex;
+  height: 13rem;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 15px;
@@ -979,7 +982,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: var(--purple);
+  background: var(--cyano-100);
   height: 100%;
   border-radius: inherit;
   
@@ -987,42 +990,42 @@ main {
 
 
 .skill-progress-fill1{
-  background: var(--purple);
+  background: var(--cyano-100);
   height: 100%;
   border-radius: inherit;
   animation: progress-animation1 6s ;
 }
 
 .skill-progress-fill2{
-  background: var(--purple);
+  background: var(--cyano-100);
   height: 100%;
   border-radius: inherit;
   animation: progress-animation2 6s ;
 }
 
 .skill-progress-fill3{
-  background: var(--purple);
+  background: var(--cyano-100);
   height: 100%;
   border-radius: inherit;
   animation: progress-animation3 6s ;
 }
 
 .skill-progress-fill4{
-  background: var(--purple);
+  background: var(--cyano-100);
   height: 100%;
   border-radius: inherit;
   animation: progress-animation4 6s ;
 }
 
 .skill-progress-fill5{
-  background: var(--purple);
+  background: var(--cyano-100);
   height: 100%;
   border-radius: inherit;
   animation: progress-animation5 6s ;
 }
 
 .skill-progress-fill6{
-  background: var(--purple);
+  background: var(--cyano-100);
   height: 100%;
   border-radius: inherit;
   animation: progress-animation6 6s ;
@@ -1080,7 +1083,7 @@ main {
   height: auto;
   margin-top: 2.5rem; 
   padding: 1rem;
-  border: 1px solid var(--purple-light-dark);
+  border: 1px solid var(--cyano-100);
   border-radius: .8rem;
 }
 
@@ -1098,7 +1101,7 @@ main {
   height: auto;
   background: var(--jet);
   padding: 1rem;
-  border: 1px solid var(--purple-light-dark);
+  border: 1px solid var(--cyano-100);
   border-radius: .8rem;
 }
 
@@ -1111,7 +1114,7 @@ main {
   border-radius: 0.8rem;
   margin: 1rem 0px;
   background: #683379e3;
-  border: 1px solid var(--purple-light-dark);
+  border: 1px solid var(--cyano-100);
   
  
 }
@@ -1406,7 +1409,7 @@ main {
   width: 100%;
   border-radius: 16px;
   margin-bottom: 30px;
-  border: 2px solid var(--purple-light-dark);
+  border: 2px solid var(--cyano-100);
   overflow: hidden;
 }
 
@@ -1462,7 +1465,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn {
   position: relative;
   width: 100%;
-  background: var(--purple);
+  background: var(--cyano-100);
   color: var(--white-1);
   display: flex;
   justify-content: center;
@@ -1481,7 +1484,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--purple);
+  background: var(--cyano-100);
   border-radius: inherit;
   z-index: -1;
   transition: var(--transition-1);

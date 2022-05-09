@@ -105,10 +105,9 @@
       height: 48px;
       border-radius: 12px;
       font-size: 18px;
-      background: #8257E5;
+      background: var(--cyano-100);
+  
     }
-  
-  
   
     /**
      * #MAIN
@@ -361,7 +360,10 @@
   
     .sidebar, article { width: 700px; }
   
-    .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
+    .has-scrollbar::-webkit-scrollbar-button { 
+      width: 100px; 
+      
+    }
   
   
   
