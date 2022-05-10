@@ -875,6 +875,7 @@ main {
 }
 
 .clients-item img:hover { 
+  filter: brightness(1);
   border: 1px solid var(--cyano-100);
  }
 
