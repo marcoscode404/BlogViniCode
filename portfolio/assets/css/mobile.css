@@ -44,6 +44,11 @@
     .testimonials-item-title {
         margin-top: 2.5rem;
     }
+
+    .about-text {
+      background-size: cover;
+      background-position: left;
+    }
   
   }
   
@@ -183,7 +188,9 @@
   
     .about .article-title { margin-bottom: 20px; }
   
-    .about-text { margin-bottom: 40px; }
+    .about-text {
+      margin-bottom: 40px; 
+    }
   
     /* service */
   
