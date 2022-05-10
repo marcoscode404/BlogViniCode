@@ -597,10 +597,19 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
   background-color: #121212;
+  border: 1px solid #3a3b37;
   padding: 1.5rem;
   margin: 15px 0; 
   
   }
+
+.about-text-info p .strong {
+  margin-right: 3px;
+  border-radius: 0.7rem;
+  color: #121212;
+  background-color: var(--orange-yellow-crayola);
+}
+
 
 
 
