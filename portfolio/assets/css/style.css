@@ -959,6 +959,26 @@ main {
   box-shadow: 0 0 0 4px var(--jet);
 }
 
+.timeline-item.pulse::after{
+  animation: pulse 2s infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 2.5;
+    filter: brightness(1.5);
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+}
+
+
 .timeline-text {
   color: var(--light-gray);
   font-weight: var(--fw-300);
