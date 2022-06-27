@@ -16,7 +16,7 @@ function avancarImagem(){
 
     //aqui está o truque para fazer com que as imagens que já passaram voltem para fora da área visível
     //o tempo de intervalo está aqui para que isso ocorra depois que a imagem ficou atrás da nova imagem da fila
-    setTimeout(resetarImagens,100);
+    setTimeout(resetarImagens, 100);
 }
 
 function resetarImagens(){
@@ -32,9 +32,9 @@ function resetarImagens(){
     //retorna todas as imagens à sua posição original, menos a imagem visível
     for(let i = 0; i < imagens.length; i++){
         if(i != imagemVisivel){
-            imagens[i].style.marginLeft = "100%";
+            imagens[i].style.marginLeft = "-100%";
         }
     }
 }
 
-let intervalo = setInterval(avancarImagem,4000);
+let intervalo = setInterval(avancarImagem, 5000);
